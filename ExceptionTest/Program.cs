@@ -24,6 +24,10 @@ namespace ExceptionTest
            {
                 throw new Exception($"Error => {e.Message}");
            }
+           finally
+           {
+                Console.WriteLine("Obrigado por usar este programa");
+           }
            
 
         }   
